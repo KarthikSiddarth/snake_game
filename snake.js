@@ -16,3 +16,18 @@ const ctx = gameCanvas.getContext('2d')
 ctx.fillStyle = CANVAS_BACKGROUND_COLOR
 
 ctx.fillRect(0, 0, gameCanvas.width, gameCanvas.height)
+
+drawSnake()
+
+function drawSnake() {
+  snakePosition.forEach(drawSnakePart)
+}
+
+function drawSnakePart(snakePart) {
+  ctx.fillStyle = SNAKE_BODY_COLOR
+  ctx.strokeStyle = SNAKE_BORDER_COLOR
+
+  ctx.fillRect(snakePart.x, snakePart.y, 10, 10)
+  ctx.strokeRect(snakePart.x, snakePart.y, 10, 10)
+
+}
