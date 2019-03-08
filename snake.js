@@ -1,4 +1,6 @@
 const CANVAS_BACKGROUND_COLOR = '#fafafa'
+const SNAKE_BODY_COLOR = ''
+const SNAKE_BORDER_COLOR = ''
 
 const gameCanvas = document.getElementById('gameCanvas')
 const ctx = gameCanvas.getContext('2d')
