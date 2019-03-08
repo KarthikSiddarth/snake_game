@@ -2,6 +2,14 @@ const CANVAS_BACKGROUND_COLOR = '#fafafa'
 const SNAKE_BODY_COLOR = ''
 const SNAKE_BORDER_COLOR = ''
 
+const snake = [
+  {x: 150, y: 150},
+  {x: 140, y: 150},
+  {x: 130, y: 150},
+  {x: 120, y: 150},
+  {x: 110, y: 150},
+]
+
 const gameCanvas = document.getElementById('gameCanvas')
 const ctx = gameCanvas.getContext('2d')
 
