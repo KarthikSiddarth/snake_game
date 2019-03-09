@@ -2,7 +2,7 @@ const CANVAS_BACKGROUND_COLOR = '#fafafa'
 const SNAKE_BODY_COLOR = '#cd1076'
 const SNAKE_BORDER_COLOR = '#000000'
 
-const snake = [
+const snakePosition = [
   {x: 150, y: 150},
   {x: 140, y: 150},
   {x: 130, y: 150},
